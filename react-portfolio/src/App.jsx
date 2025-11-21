@@ -1,8 +1,22 @@
 import React from 'react'
+import Particles from './components/particles.jsx'
 
 const App = () => {
   return (
-    <div>Hello World!</div>
+    <div className='w-full h-screen relative bg-black flex justify-center items-center'>
+     <div style={{ width: '100%', height: '100vh', position: 'relative' }}> 
+      <Particles
+        particleColors={['#4adbdeff', '#0e72deff']}
+        particleCount={300}
+        particleSpread={10}
+        speed={0.1}
+        particleBaseSize={100}
+        moveParticlesOnHover={true}
+        alphaParticles={false}
+        disableRotation={false}
+      />
+     </div>
+    </div>
   )
 }
 
