@@ -1,9 +1,11 @@
 import React from 'react'
 import Particles from './components/particles.jsx'
+import Navbar from './components/navbar.jsx'
 
 const App = () => {
   return (
     <div className='w-full h-screen relative bg-black flex justify-center items-center'>
+      <Navbar />
      <div style={{ width: '100%', height: '100vh', position: 'relative' }}> 
       <Particles
         particleColors={['#4adbdeff', '#0e72deff']}
