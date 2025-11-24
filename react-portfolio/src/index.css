@@ -7,3 +7,15 @@
   width: 100%;
   min-height: 100%;
 }
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 
+    0 0 5px #fff,  /* Inner, brighter glow */
+    0 0 10px #fff,
+    0 0 20px #fff,  /* Outer, colored glow */
+    0 0 30px #fff,
+    0 0 40px #fff;
+}
