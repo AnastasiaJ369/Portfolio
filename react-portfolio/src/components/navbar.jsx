@@ -10,10 +10,18 @@ const Navbar = () => {
                 </div>
                 <div className='flex-shrink-0 flex justify-between items-right text-white font-bold text-lg'>
                     <ul>
-                        <li className='inline-block mx-4 hover:text-black cursor-pointer'>Home</li>
-                        <li className='inline-block mx-4 hover:text-black cursor-pointer'>About</li>
-                        <li className='inline-block mx-4 hover:text-black cursor-pointer'>Projects</li>
-                        <li className='inline-block mx-4 hover:text-black cursor-pointer'>Contact</li>
+                        <li className='inline-block mx-4 hover:text-black cursor-pointer'>
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li className='inline-block mx-4 hover:text-black cursor-pointer'>
+                            <a href="#About">About</a>
+                        </li>
+                        <li className='inline-block mx-4 hover:text-black cursor-pointer'>
+                            <a href="#Projects">Projects</a>
+                        </li>
+                        <li className='inline-block mx-4 hover:text-black cursor-pointer'>
+                            <a href="#Contact">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
