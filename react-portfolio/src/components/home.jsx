@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from './components/header.jsx'
-import Particles from './components/particles.jsx'
+import Header from './header.jsx'
+import Particles from './particles.jsx'
 
 const Home = () => {
   return (
-    <section id="Home" className='w-full h-screen relative flex justify-center items-center'>
+    <section id="Home" className='w-full relative flex justify-center items-center'>
       <Header />
       <div style={{ width: '100%', height: '100vh', position: 'absolute', top: 0, left: 0, zIndex: 0 }}> 
         <Particles

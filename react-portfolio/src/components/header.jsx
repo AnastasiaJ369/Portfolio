@@ -1,7 +1,7 @@
 import React from 'react'
 import Type from './type.jsx'
 
-const header = () => {
+const Header = () => {
   return (
     <header className= 'fixed p-4 text-center text-white mt-40 z-10'>
         <div className=''>
@@ -18,4 +18,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
