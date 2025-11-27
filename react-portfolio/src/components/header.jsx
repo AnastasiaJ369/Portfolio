@@ -3,7 +3,7 @@ import Type from './type.jsx'
 
 const Header = () => {
   return (
-    <header className= 'fixed p-4 text-center text-white mt-40 z-10'>
+    <header className= 'relative p-4 text-center text-white mt-40 z-10'>
         <div className=''>
             <div>
                 <h1>
