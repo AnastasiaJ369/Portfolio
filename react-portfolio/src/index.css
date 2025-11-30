@@ -31,7 +31,7 @@ h1 {
   text-align: center;
   font-size: 40px;
   text-shadow: 
-    0 0 5px #fff,  /* Inner, brighter glow */
+    0 0 5x #fff,  /* Inner, brighter glow */
     0 0 10px #fff,
     0 0 20px #fff,  /* Outer, colored glow */
     0 0 30px #fff,

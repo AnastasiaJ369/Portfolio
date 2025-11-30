@@ -10,7 +10,7 @@ const About = () => {
             <div className='about-title text-white mt-8'>
             About Me
             </div>
-            <div className='about-subtext text-white mt-8 text-md text-3xl'>
+            <div className='about-subtext text-white mt-8 text-md text-3xl leading-loose'>
               Hello! I'm Anastasia, a budding software developer from Daytona Beach, Florida. I'm 
               currently pursuing an A.S. degree in Computer Analysis and Programming with the
               expectation of pursuing a B.S. in Information Technology. With a foundation in HTML, CSS,
